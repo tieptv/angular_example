@@ -1,3 +1,33 @@
-<p>
-  edit-personal works!
-</p>
+<diV class="container">
+  <h2>Edit</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <div class="container">
+      <div class="form-group">
+        <label for="first_name">First Name:</label>
+        <input type="text" class="form-control" formControlName="firstName" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <label for="last_name">Last Name:</label>
+        <input type="text" class="form-control" formControlName="lastName" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="last_name">Phone:</label>
+        <input type="text" class="form-control" formControlName="phone" placeholder="Phone">
+      </div>
+      <div class="form-group">
+        <label for="last_name">Email:</label>
+        <input type="text" class="form-control" formControlName="email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="last_name">Hobby:</label>
+        <textarea type="text" class="form-control" formControlName="hobby" placeholder="Hobby"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="last_name">Description:</label>
+        <textarea type="text" class="form-control" formControlName="des" placeholder="Description"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+</diV>

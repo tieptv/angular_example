@@ -7,7 +7,7 @@ import { Personal } from '../entity/personal';
 })
 export class PersonalService {
   private readonly URL = 'http://localhost:3000/personals';
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
   getPersonals() {
     console.log([this.http.get<Personal[]>(this.URL)]);
     return this.http.get<Personal[]>(this.URL);
@@ -15,7 +15,7 @@ export class PersonalService {
   getPersonal(id: number) {
     return this.http.get<Personal>(this.URL + '/' + id);
   }
-  createPersonal(p:Personal) {
+  createPersonal(p: Personal) {
     return this.http.post<Personal>(this.URL, p);
   }
 

@@ -1,5 +1,10 @@
 <div class="container">
-<table class="table table-hover">
+  <div>
+    <button class="btn btn-primary" (click)="insert()">Insert new personal</button>
+  </div>
+  <br>
+
+  <table class="table table-hover">
     <thead>
       <tr>
         <th>ID</th>
@@ -14,7 +19,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor = "let p of personals">
+      <tr *ngFor=" let p of personals| paginate:{itemsPerPage:5 , currentPage:p }">
         <td>{{p.id}}</td>
         <td>{{p.firstName|titlecase}}</td>
         <td>{{p.lastName|titlecase}}</td>
@@ -22,10 +27,18 @@
         <td>{{p.email}}</td>
         <td>{{p.hobby}}</td>
         <td>{{p.des}}</td>
-        <td><button class="btn btn-waring" [routerLink]="['/personal', p.id, 'edit']">Update</button></td>
+        <td><button class="btn btn-default" (click)="update(p)"> <span class="glyphicon glyphicon-pencil"></span>
+            Update</button></td>
         <td><button class="btn btn-danger" (click)="delete(p)">Delete</button></td>
       </tr>
     </tbody>
   </table>
 </div>
-{{personals}}
+<br>
+<br>
+<div class=" container">
+  <div class="float-right">
+    <pagination-controls (pageChange)="p =$event"></pagination-controls>
+  </div>
+</div>
+<router-outlet></router-outlet>
