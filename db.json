@@ -37,8 +37,8 @@
       "des": ""
     },
     {
-      "id": 2,
-      "firstName": "tiep1",
+      "id": 1,
+      "firstName": "tiep2",
       "lastName": "nguyen",
       "phone": "0396608207",
       "email": "tiep@gmail.com",
@@ -55,8 +55,8 @@
       "des": ""
     },
     {
-      "id": 2,
-      "firstName": "tiep1",
+      "id": 1,
+      "firstName": "tiep2",
       "lastName": "nguyen",
       "phone": "0396608207",
       "email": "tiep@gmail.com",
@@ -73,15 +73,6 @@
       "des": ""
     },
     {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
       "id": 1,
       "firstName": "tiep2",
       "lastName": "nguyen",
@@ -91,62 +82,8 @@
       "des": ""
     },
     {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
       "id": 1,
       "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
       "lastName": "nguyen",
       "phone": "0396608207",
       "email": "tiep@gmail.com",
