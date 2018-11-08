@@ -1,3 +1,53 @@
-<p>
-  list works!
-</p>
+<div class="container">
+  <div>
+    <button class="btn btn-primary">Insert new content</button>
+  </div>
+  <br>
+  <div>
+    Hiển thị
+    <select>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+    bản ghi
+  </div>
+  <br>
+  <table style="height: 80%" class="table table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Content</th>
+        <th>Status</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=" let l of list| paginate:{itemsPerPage:5 , currentPage:p }">
+        <td>{{l.id}}</td>
+        <td>{{l.type|titlecase}}</td>
+        <td>{{l.name|titlecase}}</td>
+        <td>{{l.content}}</td>
+        <td>{{l.status}}</td>
+        <td><button class="btn btn-info" (click)="apply(l)" > 
+          Apply</button></td>
+        <td><button class="btn btn-warning" > 
+            Update</button></td>
+        <td><button class="btn btn-danger" >Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<br>
+<div class=" container">
+  <div class="float-right">
+    <pagination-controls (pageChange)="p =$event"></pagination-controls>
+  </div>
+</div>
+<router-outlet></router-outlet>

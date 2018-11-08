@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { HomeModule } from './home/home.module';
 import { DemoComponent } from './whycmc/demo/demo.component';
 import { PersonalModule } from './personal/personal.module';
+import { WhycmcModule } from './whycmc/whycmc.module';
 const routes: Routes = [
   {
     path: 'personal',
@@ -17,10 +18,6 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    component: DemoComponent
-  },
-  {
-    path: 'list',
     component: DemoComponent
   }
 ];
@@ -33,7 +30,8 @@ const routes: Routes = [
     NgxPaginationModule,
     ReactiveFormsModule,
     HomeModule,
-    PersonalModule
+    PersonalModule,
+    WhycmcModule
   ],
   providers: [],
   bootstrap: [AppComponent]

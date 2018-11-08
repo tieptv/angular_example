@@ -2,7 +2,7 @@
   "personals": [
     {
       "id": 1,
-      "firstName": "tiep2",
+      "firstName": "tiep23",
       "lastName": "nguyen",
       "phone": "0396608207",
       "email": "tiep@gmail.com",
@@ -98,357 +98,84 @@
       "email": "tiep@gmail.com",
       "hobby": "play football",
       "des": ""
+    },
+    {
+      "id": 1,
+      "firstName": "tiep2",
+      "lastName": "nguyen",
+      "phone": "0396608207",
+      "email": "tiep@gmail.com",
+      "hobby": "play football",
+      "des": ""
+    },
+    {
+      "id": 1,
+      "firstName": "tiep2",
+      "lastName": "nguyen",
+      "phone": "0396608207",
+      "email": "tiep@gmail.com",
+      "hobby": "play football",
+      "des": ""
+    },
+    {
+      "id": 1,
+      "firstName": "tiep2",
+      "lastName": "nguyen",
+      "phone": "0396608207",
+      "email": "tiep@gmail.com",
+      "hobby": "play football",
+      "des": ""
+    }
+  ],
+  "whycmc": [
+    {
+      "id": 1,
+      "type": "video",
+      "name": "Đừng ai nhắc về anh ấy",
+      "content": "https://www.youtube.com/embed/3giX5zvQQqo",
+      "status": "enable"
     },
     {
       "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
+      "type": "title",
+      "name": "title 1",
+      "content": "Nhạc MR SIRO",
+      "status": "disable"
     },
     {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
+      "id": 3,
+      "type": "video",
+      "name": "Đã từng vô giá",
+      "content": "https://www.youtube.com/embed/kFhnLeYOyiA?list=RDkFhnLeYOyiA",
+      "status": "enable"
     },
     {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
+      "id": 4,
+      "type": "slogan",
+      "name": "nguyen",
+      "content": "0396608207",
+      "status": "enable"
     },
     {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
+      "id": 5,
+      "type": "slogan",
+      "name": "nguyen",
+      "content": "0396608207",
+      "status": "enable"
     },
     {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
+      "id": 6,
+      "type": "slogan",
+      "name": "nguyen",
+      "content": "0396608207",
+      "status": "enable"
     },
     {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 2,
-      "firstName": "tiep1",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
+      "id": 7,
+      "type": "slogan",
+      "name": "nguyen",
+      "content": "0396608207",
+      "status": "enable"
     }
   ]
 }
