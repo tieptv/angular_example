@@ -1,7 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Pipe, PipeTransform } from '@angular/core';
 import { WhycmcService } from '../whycmc.service';
 import { Whycmc } from 'src/app/entity/whycmc';
-import { forEach } from '@angular/router/src/utils/collection';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+
+@Pipe({ name: 'safe' })
+export class SafePipe implements PipeTransform {
+  constructor(private sanitizer: DomSanitizer) {}
+  transform(url) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+}
 
 @Component({
   selector: 'app-demo',
@@ -9,20 +17,23 @@ import { forEach } from '@angular/router/src/utils/collection';
   styleUrls: ['./demo.component.scss']
 })
 export class DemoComponent implements OnInit {
-  video:string;
-  list:Whycmc[]=[];
-  constructor(private service : WhycmcService) { }
-
+  video: SafeResourceUrl;
+  list: Whycmc[] = [];
+  constructor(
+    private service: WhycmcService,
+    private sanitizer: DomSanitizer
+  ) {}
   ngOnInit() {
-    this.service.getWhycmcs().subscribe(res => (this.list = res));
-    // for (let i = 0,len=this.list.length; i < len; i++) {
-    //   let tem=this.list[i];
-    //   if(tem.type==="video" && tem.status==="enable" ){
-    //     this.video=tem.content;
-    //     break;
-    //   }
-    //this.video=this.list[0].content;
-    //console.log(this.list);
+    this.service.getWhycmcs().subscribe(res => {
+      this.list = res;
+      for (let i = 0; res.length; i++) {
+        if (res[i].status === 'enable' && res[i].type === 'video') {
+          this.video = this.sanitizer.bypassSecurityTrustResourceUrl(
+            res[i].content
+          );
+          break;
+        }
+      }
+    });
   }
-
 }

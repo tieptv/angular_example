@@ -2,15 +2,6 @@
   "personals": [
     {
       "id": 1,
-      "firstName": "tiep23",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
       "firstName": "tiep2",
       "lastName": "nguyen",
       "phone": "0396608207",
@@ -133,14 +124,14 @@
       "type": "video",
       "name": "Đừng ai nhắc về anh ấy",
       "content": "https://www.youtube.com/embed/3giX5zvQQqo",
-      "status": "enable"
+      "status": "disable"
     },
     {
       "id": 2,
       "type": "title",
       "name": "title 1",
       "content": "Nhạc MR SIRO",
-      "status": "disable"
+      "status": "enable"
     },
     {
       "id": 3,
