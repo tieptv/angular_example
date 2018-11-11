@@ -1,6 +1,11 @@
 <div class="container">
   <div>
-    <button class="btn btn-primary">Insert new content</button>
+    <select style="width: auto" class="form-control">
+      <option style="background-color: blue" value="" disabled selected  hidden>Insert New Content</option>
+      <option ><a  routerLink="/video">Video</a></option>
+      <option><a  routerLink="/slogan_title">Slogan and Title</a></option>
+    </select>
+    
   </div>
   <br>
   <div>
@@ -28,7 +33,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor=" let l of list| paginate:{itemsPerPage:5 , currentPage:p }">
+      <tr *ngFor=" let l of list | paginate:{itemsPerPage:5 , currentPage:p }" [ngStyle]="{'background-color':l.status === 'enable' ? 'pink' : 'white'}">
         <td>{{l.id}}</td>
         <td>{{l.type|titlecase}}</td>
         <td>{{l.name|titlecase}}</td>

@@ -1,15 +1,9 @@
 <div class="container">
-  <div><h3 style="text-align: center;size: 40px;">Justice Leauge</h3></div>
+  <div><h3 style="text-align: center;size: 40px;">{{title}}</h3></div>
   <div class="row" style="height: 12px">
     <div class="col-sm-3  col-md-offset-1">
       <ul class="list-group">
-        <br />
-        <li class="list-group-item">Cybord</li>
-        <br />
-        <li class="list-group-item">Green Lanter</li>
-        <br />
-        <li class="list-group-item">Flash</li>
-        <br />
+        <li *ngFor="let l of left" class="list-group-item"><br>{{l}}<br></li>
       </ul>
     </div>
     <div class="col-sm-6">
@@ -25,13 +19,7 @@
     </div>
     <div class="col-sm-3">
       <ul class="list-group">
-        <br />
-        <li class="list-group-item">Superman</li>
-        <br />
-        <li class="list-group-item">Batman</li>
-        <br />
-        <li class="list-group-item">Wonderwoman</li>
-        <br />
+        <li *ngFor="let r of right" class="list-group-item"><br>{{r}}<br></li>
       </ul>
     </div>
   </div>

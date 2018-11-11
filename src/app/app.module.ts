@@ -11,6 +11,7 @@ import { HomeModule } from './home/home.module';
 import { DemoComponent } from './whycmc/demo/demo.component';
 import { PersonalModule } from './personal/personal.module';
 import { WhycmcModule } from './whycmc/whycmc.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 const routes: Routes = [
   {
     path: 'personal',
@@ -31,7 +32,7 @@ const routes: Routes = [
     ReactiveFormsModule,
     HomeModule,
     PersonalModule,
-    WhycmcModule
+    WhycmcModule,BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
