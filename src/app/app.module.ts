@@ -4,12 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { ListPersonalComponent } from './personal/list-personal/list-personal.component';
+import { ListPersonalComponent } from './component/personal/list-personal/list-personal.component';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { HomeComponent } from './home/home.component';
-import { HomeModule } from './home/home.module';
 import { DemoComponent } from './whycmc/demo/demo.component';
-import { PersonalModule } from './personal/personal.module';
+import { PersonalModule } from './component/personal/personal.module';
 import { WhycmcModule } from './whycmc/whycmc.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 const routes: Routes = [
@@ -30,9 +28,9 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     NgxPaginationModule,
     ReactiveFormsModule,
-    HomeModule,
     PersonalModule,
-    WhycmcModule,BrowserAnimationsModule
+    WhycmcModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

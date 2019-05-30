@@ -53,69 +53,6 @@
       "email": "tiep@gmail.com",
       "hobby": "play football",
       "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
-    },
-    {
-      "id": 1,
-      "firstName": "tiep2",
-      "lastName": "nguyen",
-      "phone": "0396608207",
-      "email": "tiep@gmail.com",
-      "hobby": "play football",
-      "des": ""
     }
   ],
   "whycmc": [
@@ -145,28 +82,28 @@
       "type": "slogan",
       "name": "nguyen",
       "content": "0396608207",
-      "status": "enable"
+      "status": "disable"
     },
     {
       "id": 5,
       "type": "slogan",
       "name": "nguyen",
       "content": "0396608207",
-      "status": "enable"
+      "status": "disable"
     },
     {
       "id": 6,
       "type": "slogan",
       "name": "nguyen",
       "content": "0396608207",
-      "status": "enable"
+      "status": "disable"
     },
     {
       "id": 7,
       "type": "slogan",
       "name": "nguyen",
       "content": "0396608207",
-      "status": "enable"
+      "status": "disable"
     }
   ]
 }

@@ -22,13 +22,15 @@ export class InsertPersonalComponent implements OnInit {
       phone: ['', [Validators.required]],
       email: ['', [Validators.required]],
       hobby: [''],
-      des: ['']
+      description: ['']
     });
   }
   onSubmit() {
     const { valid, value } = this.insertForm;
+    const form = new FormData();
+    form.append('personal',JSON.stringify(value));
     if (valid) {
-      this.service.createPersonal(value).subscribe(_ => {
+      this.service.createPersonal(form).subscribe(_ => {
         this.router.navigate(['/personal']);
       });
     } else {

@@ -13,7 +13,9 @@ export class ListPersonalComponent implements OnInit {
   personals: Personal[] = [];
   constructor(private service: PersonalService, private router: Router) {}
   ngOnInit() {
-    this.service.getPersonals().subscribe(res => (this.personals = res));
+    this.service.getPersonals().subscribe(res => {this.personals = res;
+    console.log(res);
+    });
   }
   delete(p: Personal) {
     this.service
